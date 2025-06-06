@@ -80,6 +80,6 @@ Em poucas palavras o que consegui pensar:
 - Me parece que a EMPRESA não pode/deve acessar os dados dos clientes, logo uma imagem de VM pronta end-to-end para todo processo poderia resolver alguns itens de problemas.
 - Este "docker-composer" seria inserido na VM cliente e executaria a criação de todas as instancias necessárias para manipular todos os dados - parecido com o que tentei fazer acima - com a diferença que ela precisaria mapear todas as colunas, de todas tabelas de todos os datasets disponíveis (tenho um código que faz isso) porém ainda seria necessário o mapeamento para padrão OMOP.
 - Para ampliar as possibilidades de mapeamento poderia ser anexado um modelo pequeno de LLM que rode em CPU para fazer parte do trabalho do mapeamento de conceitos.
-- Ao final, os dados seriam testados e a qualidade do resultado seria enviado pro cliente que compartilharia com a promptly de volta.
+- Ao final, os dados seriam testados e a qualidade do resultado seria enviado pro cliente que compartilharia com a EMPRESA de volta.
 
 - [To improve]
